@@ -23,7 +23,6 @@ $db = new mysqli(DBLOCATION, DBUSER, DBPASS, DBNAME);
 	}
 	$result->free();
 	$db->close(); 
-//var_dump($assets);
 ?>
 <div class="row">
 <div class="col-lg-8">	

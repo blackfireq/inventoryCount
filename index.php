@@ -46,7 +46,8 @@ $db = new mysqli(DBLOCATION, DBUSER, DBPASS, DBNAME);
 	}
 	$result->free();
 	$db->close(); 
-
+	
+//get dates
 $db = new mysqli(DBLOCATION, DBUSER, DBPASS, DBNAME);
 	$sql = "SELECT DISTINCT created FROM asset_quantity";
 	$result = $db->query($sql);
